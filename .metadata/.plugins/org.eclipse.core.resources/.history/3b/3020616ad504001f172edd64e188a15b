@@ -1,0 +1,15 @@
+spring.application.name=demo
+spring.datasource.mysql.url=jdbc:mysql://localhost:3306/reliance
+spring.datasource.mysql.username=root
+spring.datasource.mysql.password=root
+spring.datasource.mysql.driver-class-name=com.mysql.cj.jdbc.Driver
+
+spring.jpa.hibernate.ddl-auto = update 
+
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=password
+
+spring.h2.console.enabled=true
+spring.jpa.open-in-view=false

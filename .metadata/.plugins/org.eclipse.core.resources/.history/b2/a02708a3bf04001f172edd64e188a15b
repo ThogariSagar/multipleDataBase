@@ -1,0 +1,14 @@
+spring.application.name=demo
+spring.datasource.mysql.url=jdbc:mysql://localhost:3306/reliance
+spring.datasource.mysql.username=root
+spring.datasource.mysql.password=root
+spring.datasource.mysql.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+spring.jpa.hibernate.ddl-auto = update 
+
+spring.datasource.h2.url=jdbc:h2:mem:testdb
+spring.datasource.h2db.driverClassName=org.h2.Driver
+spring.datasource.h2db.username=sa
+spring.datasource.h2db.password=password
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.h2.console.enabled=true
